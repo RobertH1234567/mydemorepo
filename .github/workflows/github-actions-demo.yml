@@ -14,7 +14,7 @@ jobs:
     steps:
       - run: |
           echo " triggered by event: ${{github.event_name}}"
-          eche " name of branch: ${{ github.ref}} and your repository is ."
+          echo " name of branch: ${{ github.ref}} and your repository is ."
 
       - uses: actions/checkout@v3.3.0
 
